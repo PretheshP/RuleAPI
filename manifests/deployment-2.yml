@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "ruleaks-b999"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "ruleaks-b999"
+  template:
+    metadata:
+      labels:
+        app: "ruleaks-b999"
+    spec:
+      containers:
+        - name: "ruleaks-b999"
+          image: "rulecr.azurecr.io/ruleaks"
+          ports:
+          - containerPort: 80
