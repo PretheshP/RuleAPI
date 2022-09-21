@@ -44,7 +44,7 @@ namespace RulesAPI
                 s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Room API",
+                    Title = "Rules API",
                     Description = "Checks for Rules to be followed"
                 });
             });
