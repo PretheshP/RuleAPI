@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Exceptions",
+    "\\Properties",
+    "\\Providers",
+    "\\Providers\\Interfaces",
+    "\\Repositories"
+  ],
+  "SelectedNode": "\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}
